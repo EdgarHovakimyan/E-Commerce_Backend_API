@@ -64,9 +64,14 @@ The system is designed for **Admins**, **Managers**, and **Customers**, supporti
 
 ## Create a .env file in the root:
 
-PORT=3000
+PORT=8080
 
-MONGODB_URI=mongodb+srv://your-db-uri
+DB_HOST=localhost
+DB_PORT=3306
+DB_DIALECT=mysql
+DB_NAME=your_database_name
+DB_USER=your_db_user
+DB_PASSWORD=your_db_password
 
 JWT_SECRET=your_jwt_secret
 
