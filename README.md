@@ -67,10 +67,15 @@ The system is designed for **Admins**, **Managers**, and **Customers**, supporti
 PORT=8080
 
 DB_HOST=localhost
+
 DB_PORT=3306
+
 DB_DIALECT=mysql
+
 DB_NAME=your_database_name
+
 DB_USER=your_db_user
+
 DB_PASSWORD=your_db_password
 
 JWT_SECRET=your_jwt_secret
