@@ -48,12 +48,17 @@ The system is designed for **Admins**, **Managers**, and **Customers**, supporti
 
 ## ⚙️ Tech Stack
 
+
 - **Node.js**
 - **Express.js**
-- **MongoDB (Mongoose)**
-- **Passport.js (JWT Strategy)**
-- **dotenv**
+- **MySQL** (via `mysql2`)
+- **Sequelize ORM**
+- **Passport.js** (Local & JWT strategies)
 - **bcrypt**, **jsonwebtoken**
+- **dotenv**, **cookie-parser**
+- **multer** – File/image upload support
+- **joi** – Request body validation
+- **nodemailer** – Email functionality
 
 ---
 
