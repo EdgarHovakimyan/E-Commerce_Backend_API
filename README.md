@@ -57,11 +57,13 @@ The system is designed for **Admins**, **Managers**, and **Customers**, supporti
 
 ---
 
-Create a .env file in the root:
+## Create a .env file in the root:
 
 PORT=3000
 MONGODB_URI=mongodb+srv://your-db-uri
 JWT_SECRET=your_jwt_secret
+
+---
 
 ## 🧠 Author
 
