@@ -11,7 +11,7 @@ user.get("/products", UserController.getProduct);
 user.get("/product/:id", UserController.getProductById);
 
 user.patch("/updateData", UserController.updateUser);
-user.patch("/updateImage", UserController.updateUserImage);
+user.patch("/updateImage", upload.single("image"), UserController.updateUserImage);
 user.patch("/updatePassword", UserController.updateUserPassword);
 
 user.delete("/deleteUser", UserController.deleteUser);
